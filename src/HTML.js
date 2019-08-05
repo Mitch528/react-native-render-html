@@ -441,6 +441,7 @@ export default class HTML extends PureComponent {
                     convertedCSSStyles,
                     {
                         ...props,
+                        element,
                         parentWrapper: wrapper,
                         parentTag,
                         nodeIndex,
